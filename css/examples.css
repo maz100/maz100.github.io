@@ -13,7 +13,7 @@
 }
 
 body{
-	font-size: 1em;
+	font-size: 14px;
 }
 
 /*iPhone 6 and iPhone 6+ portrait and landscape*/
@@ -22,7 +22,7 @@ body{
 		font-size: 1.5em;
 	}
 	.responsive{
-		font-size: 1.5em;
+		/*font-size: 1.5em;*/
 		background-color: red;
 	}
 }
