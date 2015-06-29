@@ -22,5 +22,6 @@ and (max-device-width : 736px)
 and (orientation : portrait) {
 	body{
 		font-size: 3 em;
+		background-color: red;
 	}
 }
