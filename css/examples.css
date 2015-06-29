@@ -20,7 +20,8 @@ body{
 and (min-device-width : 414px) 
 and (max-device-width : 736px) 
 and (orientation : portrait) {
-	.responsive{		
+	.responsive{
+		font-size: 2.5em;
 		background-color: red;
 	}
 }
