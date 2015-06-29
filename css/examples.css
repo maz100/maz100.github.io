@@ -1,7 +1,9 @@
 .unresponsive, .responsive {
 	border: 1px solid black;
 	padding: 1em;
-	background-color: silver;	
+	background-color: silver;
+	margin-left: auto ;
+  	margin-right: auto ;
 }
 
 .unresponsive {
