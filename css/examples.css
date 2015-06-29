@@ -1,0 +1,11 @@
+.unresponsive, .responsive {
+	border: 1px solid black;
+	padding: 1em;	
+}
+
+.unresponsive {
+	width:1000px;
+}
+.responsive{	
+	max-width: 1000px;
+}
