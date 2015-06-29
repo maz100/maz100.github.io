@@ -1,63 +1,12 @@
 <html>
 	<head>
-		<title>Responsive Design Examples</title>
-		<link rel="stylesheet" type="text/css" href="css/examples.css">
+		<title>Responsive design examples</title>
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 	</head>
 	<body>
-		<h1>Fixed width vs Fluid layouts</h1>
-		<p>In this example there are two &lt;div&gt; elements. The first has a fixed width of 1000px. The second has a width of 90%.
-			Try resizing the browser window. You'll see that the first block keeps its width fixed but that the second resizes in response
-			to the width of the window.</p>
-		<p>On the desktop you're probably seeing the first, unresponsive block simply being clipped, or hidden as the browser window
-			is resized. If you look on a mobile device you'll see something different. The unresponsive block is restricted to the full
-			width of the browser window and the text wraps correctly. So mobile browsers attempt to give a better experience out of the
-			box. Its not actually possible to resize a mobile or tablet browser (currently!) and so sensible default behaviour has been
-			implemented meaning that we can view all of the text.</p>
-		<p>The responsive block looks better, it has correctly scaled to take up just 90% of the total browser width. This already
-			gives us more consistency across devices.</p>
-		<div class="unresponsive">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tortor turpis, lacinia eu consectetur vel, condimentum sit
-			amet ante. Pellentesque ac justo placerat, malesuada urna a, pellentesque sem. Etiam ac felis sodales magna faucibus egestas.
-			Sed a tortor aliquam, aliquam elit sed, laoreet neque. Quisque a nisi sit amet ipsum porttitor viverra eu sit amet justo.
-			Phasellus scelerisque nisl libero, at porttitor massa sollicitudin condimentum. Ut vehicula auctor libero, sit amet viverra
-			metus lacinia in. Fusce at nulla nec justo tristique auctor a ac felis. Aenean venenatis felis ut maximus porta. Sed tincidunt
-			egestas eros et placerat. Sed fringilla viverra velit sit amet condimentum. Nullam ac molestie sem. Nam eu odio ut dui elementum
-			euismod. Aliquam purus risus, venenatis quis laoreet at, blandit et ante. Nunc pulvinar feugiat tellus, sit amet condimentum
-			tellus sodales eget. Ut vestibulum leo mi, vel maximus odio egestas eget. Donec rhoncus luctus felis, nec sollicitudin augue
-			tincidunt nec. Donec ut vehicula tellus, non fermentum quam. Integer interdum tortor a faucibus hendrerit. Praesent auctor
-			metus tortor. Sed tempus nibh nulla, non faucibus felis fringilla ut. Vivamus non efficitur massa, vel tempor quam. Cras
-			quis rhoncus magna, ut tristique turpis. Cras in dui metus. Cras feugiat consectetur porttitor. Proin ornare sit amet nunc
-			ut iaculis. Ut vel magna quis ex luctus maximus at vel tortor. Sed mattis consequat justo at aliquet. Aenean gravida convallis
-			quam quis egestas. Maecenas laoreet porttitor semper. In ullamcorper pellentesque cursus. Curabitur ornare dolor ut varius
-			eleifend. Morbi at massa eget neque interdum auctor eget eu metus. Nam a sem sed elit pretium egestas. Ut viverra faucibus
-			est nec finibus. Cras scelerisque tellus quis tellus aliquam pulvinar. Vestibulum hendrerit quis orci id euismod. Suspendisse
-			fringilla ullamcorper neque, ac hendrerit risus maximus sit amet. Mauris maximus tortor turpis, et scelerisque augue semper
-			in. Proin dolor leo, posuere at gravida id, lobortis eu ante. Sed tincidunt finibus rhoncus. Donec commodo porta quam, nec
-			iaculis felis lacinia sed. Vivamus laoreet velit quis rhoncus facilisis. Aliquam euismod a ante et viverra. Aliquam rutrum
-			tempus suscipit. Ut molestie risus in leo congue posuere. Proin nec ipsum sagittis, molestie lorem non, suscipit nisi. Duis
-			dapibus orci et erat aliquet, ac imperdiet neque convallis. Suspendisse ac ante odio. Nam tincidunt venenatis diam ut scelerisque.
-			Morbi congue lorem tincidunt posuere tristique. Sed a ex lectus.</div>
-		<br>
-		<div class="responsive">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tortor turpis, lacinia eu consectetur vel, condimentum sit
-			amet ante. Pellentesque ac justo placerat, malesuada urna a, pellentesque sem. Etiam ac felis sodales magna faucibus egestas.
-			Sed a tortor aliquam, aliquam elit sed, laoreet neque. Quisque a nisi sit amet ipsum porttitor viverra eu sit amet justo.
-			Phasellus scelerisque nisl libero, at porttitor massa sollicitudin condimentum. Ut vehicula auctor libero, sit amet viverra
-			metus lacinia in. Fusce at nulla nec justo tristique auctor a ac felis. Aenean venenatis felis ut maximus porta. Sed tincidunt
-			egestas eros et placerat. Sed fringilla viverra velit sit amet condimentum. Nullam ac molestie sem. Nam eu odio ut dui elementum
-			euismod. Aliquam purus risus, venenatis quis laoreet at, blandit et ante. Nunc pulvinar feugiat tellus, sit amet condimentum
-			tellus sodales eget. Ut vestibulum leo mi, vel maximus odio egestas eget. Donec rhoncus luctus felis, nec sollicitudin augue
-			tincidunt nec. Donec ut vehicula tellus, non fermentum quam. Integer interdum tortor a faucibus hendrerit. Praesent auctor
-			metus tortor. Sed tempus nibh nulla, non faucibus felis fringilla ut. Vivamus non efficitur massa, vel tempor quam. Cras
-			quis rhoncus magna, ut tristique turpis. Cras in dui metus. Cras feugiat consectetur porttitor. Proin ornare sit amet nunc
-			ut iaculis. Ut vel magna quis ex luctus maximus at vel tortor. Sed mattis consequat justo at aliquet. Aenean gravida convallis
-			quam quis egestas. Maecenas laoreet porttitor semper. In ullamcorper pellentesque cursus. Curabitur ornare dolor ut varius
-			eleifend. Morbi at massa eget neque interdum auctor eget eu metus. Nam a sem sed elit pretium egestas. Ut viverra faucibus
-			est nec finibus. Cras scelerisque tellus quis tellus aliquam pulvinar. Vestibulum hendrerit quis orci id euismod. Suspendisse
-			fringilla ullamcorper neque, ac hendrerit risus maximus sit amet. Mauris maximus tortor turpis, et scelerisque augue semper
-			in. Proin dolor leo, posuere at gravida id, lobortis eu ante. Sed tincidunt finibus rhoncus. Donec commodo porta quam, nec
-			iaculis felis lacinia sed. Vivamus laoreet velit quis rhoncus facilisis. Aliquam euismod a ante et viverra. Aliquam rutrum
-			tempus suscipit. Ut molestie risus in leo congue posuere. Proin nec ipsum sagittis, molestie lorem non, suscipit nisi. Duis
-			dapibus orci et erat aliquet, ac imperdiet neque convallis. Suspendisse ac ante odio. Nam tincidunt venenatis diam ut scelerisque.
-			Morbi congue lorem tincidunt posuere tristique. Sed a ex lectus.</div>
+		<p>Here you'll find a few examples of responsive design concepts.
+			<ul>
+				<a href="fluid.html">fluid layouts</a>
+			</ul>
+		</p>
 	</body>
-
-</html>

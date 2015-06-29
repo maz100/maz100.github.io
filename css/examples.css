@@ -11,3 +11,9 @@
 	/*max-width: 1000px;*/
 	width:90%;
 }
+
+@media screen and (max-width:500px){
+	body{
+		font-size: 3 em;
+	}
+}
