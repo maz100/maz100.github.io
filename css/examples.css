@@ -19,7 +19,7 @@ body{
 /*iPhone 6 and iPhone 6+ portrait and landscape*/
 @media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){	
 	.responsive{
-		font-size: 2.5em;
+		font-size: 5.5em;
 		background-color: red;
 	}
 }
