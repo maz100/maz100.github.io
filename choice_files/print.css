@@ -1,0 +1,29 @@
+.sIFR-flash,.sIFR-flash object,.sIFR-flash embed{display:none!important;height:0;width:0;position:absolute;overflow:hidden;}
+span.sIFR-alternate{visibility:visible!important;display:block!important;position:static!important;left:auto!important;top:auto!important;}
+div{width:auto!important;}
+.feat2-cols-3,.col.news.col1{display:block;}
+.col .cols-3-area{margin-top:70px!important;}
+.lenderdiv{margin-bottom:30px;margin-top:30px;display:block;}
+.ul.links li,.quote-link ul li,ul li.video-icon a{list-style:none;}
+.adviser-generic-left{display:block;page-break-before:auto;}
+.scroll-pane-holder{display:block!important;page-break-before:always!important;clear:both;}
+table.summary.half{width:80%;margin-bottom:10px;}
+table.summary.half .text-right{float:right;}
+.col #sc1,.col #sc2,.col #sc3{width:20px;}
+.summary.half .sifr{float:left;font-weight:700;margin:10px 0;}
+.cols-2-dd .cols-2-dd-sub .col label{font-weight:700;white-space:nowrap;display:block;clear:both;margin:3px 0;}
+body.openDialog .ui-dialog{position:absolute!important;top:0!important;left:0!important;overflow:scroll!important;}
+.detailsPanel{clear:both;height:100%;}
+.landing .feat1-cols-2 .col{float:left;margin-right:30px;width:40%!important;}
+.landing .feat1-cols-2 .col.fullwidth{width:80%!important;}
+.landing .feat1-cols-2 .col h2{margin-bottom:0;}
+.clear-all,.clear{clear:both;}
+.header .tools,.header .navigation,.background,.shortcuts,.generic-col-1,.generic-col-3,.breadcrumb,.site-links,.footer,.toplink,.cols-3-alt,.rate-the-page,.social-bookmarks,.video,.video-player,.generic-image-left,.feat2-cols-3,.recentlyviewed,.listing-col-1,ul.per-page-option,.resource-filter,.page-navigation,.smallprint,.wpb-home-quote img,#browser-warning,.wpb-info-panel p a,.wpb-advert p a,.wide-advert-box,.wide-advert-overlay,.wpb-extra-site-links,.wpb-extra-options ul li form.search,.feat-img,.site-links-head,.default a.link-pre-button,.adviser-cols-enclose,.head-strapline,.button-drk,.news-enclose img,.col .adviser-image-left,.campaign-award img,.campaign-feature img,.campaign-mpu img,.generic-image-right img,.lead-feature img,.key-docs,.sub-feature.feat2,.image-gallery img,.generic-image-left img,.print-icon,form.search.filter-form,.generic-body.generic-col-2 img,.notify-actions ul li.large-print,.lenderdiv .lendercontent a,.lendertitle .rightimg,.default .quicklinks,.col .print-icon-utes,fieldset.topMargin input[type="text"],.tint-17.security-info input[type="text"],.ddebit-extra a,.cols-2-dd .tint-17,.summary fieldset.security-info,.third-party-logo,.logo,.chevron-breadcrumb,.iconContainer,.opt-out-confirm,.right.relative,.promo img,.product-item .product-desc img,.actions,.cta .button,.close-flyout,.col-2 .button,.sub-col .button,.sub-col-alt .button,.promo a,.col a.arr-link,.product-item .actions .button a span,.default .button,.checklist-pull .button,.info-panel .button a,.col .button a apan,.default p a,form input[type="submit"],form input[type="button"].s-button,form img,form button,form .document-icon a,form a.cancel,.feat-img-overlay-content a,ul.arrow-back,ul.arrow-up,.action-one a,.checklist-box-inner a,.inner-two-col a.arr-link,.quote-link li.comment-icon a,.cols-bg .col p a,ul li.video-icon a,.sub-feature a,table.portfolio input[type="checkbox"],table.portfolio input[type="text"],table.portfolio input[type="radio"],.cols-2 .highlight-text #paymenttype,.cols-2-dd .col #paymenttype,.cols-2 .payment-type .highlight-text a,.payment-type img{display:none;}
+.faq-content,.utes .site-links,.site-links h2.head.sifr,.site-links div.col-1.full,.site-links div.col-1.full p span.sifr,.cols-2 .payment-type,.cols-2 .payment-type table,.site-links div.col-2,#before-buy-content{display:block!important;}
+.faq-heading-on,.faq-heading-off{font-weight:700;}
+.faq-group-shortcuts,.utes .app-nav,.utes .app-payments,.utes .actions,.utes .closed,.utes .open,.utes .site-links,.utes .page-title,.utes .site-links .head,.utes .no-print,.utes .site-links div,.utes .site-links div.col-1,.site-links div.col-2 ul,#before-buy-content-ajax .before-buy-alt-footer,#before-buy-content-ajax .button-close,body.openDialog .margin,.ui-widget-overlay{display:none!important;}
+.utes .col,.feat1-cols-2 .col{height:auto!important;}
+.pane-contain .pane-item,table.portfolio{width:100%;}
+
+/* ae choice */
+.ae-choice .detailsPanel P B {display:block;}
